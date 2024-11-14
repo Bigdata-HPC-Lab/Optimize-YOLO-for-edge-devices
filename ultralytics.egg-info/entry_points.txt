@@ -1,0 +1,3 @@
+[console_scripts]
+ultralytics = ultralytics.yolo.cli:entrypoint
+yolo = ultralytics.yolo.cli:entrypoint
