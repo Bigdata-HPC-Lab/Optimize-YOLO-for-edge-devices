@@ -31,7 +31,6 @@ Second, Set configuration (Data path and YOLO model)
 ```
 cd ./run
 # Open the python file you want to run and modify configuration
-cd ..
 ```
 
 Third, Run the python file
