@@ -34,7 +34,7 @@ video_path = "Path to your data"
 cap = cv2.VideoCapture(video_path) 
 
 #Number of available cores
-num_processes = 1
+num_processes = "Number of available cores"
 
 #Total frame counts of the incomming data
 frame_count = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
