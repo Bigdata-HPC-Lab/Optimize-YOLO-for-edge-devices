@@ -9,7 +9,7 @@ from PIL import Image
 def image_multiprocessing(group_number):
     for i in range(frame_jump_unit * group_number, min(frame_jump_unit * (group_number + 1), len(image_files))):
         #Set the model
-        model = YOLO('yolov8n.pt')
+        model = YOLO("Selcet YOLO model")
         
         #Connect to incomming data
         image_file = os.path.join("Path to your data", image_files[i])
@@ -22,7 +22,7 @@ def image_multiprocessing(group_number):
 
         proc_frames = proc_frames + 1
         
-#Open the image file
+#Open the incomming data file
 image_path = "Path to your data"
 image_files = os.listdir(image_path)
 
