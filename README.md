@@ -18,4 +18,26 @@ For evaluation setup, we use state-of-the-art edge device NVIDIA Jetson Orin Nan
 - Resource Evaluation: Compare the original and proposed schemes based on runtime, memory usage, and power consumption, and also compare with SOTA ML model optimization technique.
 
 ## How to run
+First, Install
 
+'''
+# Install ultralytics
+pip install -r requirements.txt
+pip install .
+'''
+
+Second, Set configuration (Data path and YOLO model)
+
+'''
+cd ./run
+# Open the python file you want to run and modify configuration
+cd ..
+'''
+
+Third, Run the python file
+'''
+# For original (Set optimized number of threads according to your deivce)
+OMP_NUM_THREADS=6 python video_single.py
+# For proposed (Set optimized number of threads according to your deivce)
+OMP_NUM_THREADS=1 python video_multi.py
+'''
