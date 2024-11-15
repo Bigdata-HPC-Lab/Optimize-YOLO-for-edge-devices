@@ -26,8 +26,8 @@ def image_multiprocessing(group_number):
 image_path = "Path to your data"
 image_files = os.listdir(image_path)
 
-#Number of parallel processes
-num_processes = "Available number of cores"
+#Number of available cores
+num_processes = "Number of available cores"
 
 #Total frame counts of the video file
 frame_count = int(len(image_files))
