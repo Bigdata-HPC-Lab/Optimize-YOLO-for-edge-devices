@@ -1,5 +1,5 @@
 # Optimize-YOLO-for-edge-devices
-Improving performance of real-time object detection in edge device through concurrent multi-frame processing (Submitted after major revision IEEE ACCESS journal)
+Improving performance of real-time object detection in edge device through concurrent multi-frame processing (Submitted to the IEEE ACCESS journal)
 
 
 ## Introduction
